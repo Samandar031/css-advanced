@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+COLORS:
+
+LightGreen: #7ed56f
+MediumGreen: #55c57a
+DarkGreen: #28b485
+
+*/
+
+.container {
+  background-image: url(./hero.jpg);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(128, 214, 113, 0.8),
+    rgba(39, 180, 133, 0.8)
+  );
+  width: 100%;
+  height: 95vh;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+  text-align: center;
+  position: relative;
+  line-height: 45px;
+
+  animation-name: moveBack;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.con {
+  top: 150px;
+  right: 600px;
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  top: 10;
+  left: 0;
+  width: 60px;
+  height: 45px;
+  margin: 20px;
+  padding: 10px;
+
+  animation-name: moveLogo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.title {
+  letter-spacing: 20px;
+  color: white;
+  font-size: 40px;
+  padding-top: 150px;
+
+  animation-name: moveTitle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.text {
+  top: 200px;
+  left: 500px;
+  color: white;
+  font-size: 30px;
+  margin: 20px;
+
+  animation-name: moveText;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 40px;
+  display: inline-block;
+
+  position: relative;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 40px;
+  display: inline-block;
+  background-color: aqua;
+  z-index: -1;
+  opacity: 1;
+
+  animation-name: btnMem;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+/* .btn:hover::after {
+  transform: scale(2);
+  transition: 1s;
+  opacity: 0;
+} */
+
+@keyframes btnMem {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(2);
+  }
+}
