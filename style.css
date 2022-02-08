@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 /* 
 COLORS:
 
@@ -14,18 +18,18 @@ DarkGreen: #28b485
 */
 
 .container {
-  background-image: url(./hero.jpg);
   background-image: linear-gradient(
-    to bottom right,
-    rgba(128, 214, 113, 0.8),
-    rgba(39, 180, 133, 0.8)
-  );
+      to bottom right,
+      rgba(128, 214, 113, 0.5),
+      rgba(39, 180, 133, 0.5)
+    ),
+    url(./hero.jpg);
   width: 100%;
   height: 95vh;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
   text-align: center;
   position: relative;
-  line-height: 45px;
+  line-height: 4.5rem;
 
   animation-name: moveBack;
   animation-duration: 2s;
@@ -33,8 +37,8 @@ DarkGreen: #28b485
 }
 
 .con {
-  top: 150px;
-  right: 600px;
+  top: 15rem;
+  right: 60rem;
   text-align: center;
 }
 
@@ -42,10 +46,10 @@ img {
   position: absolute;
   top: 10;
   left: 0;
-  width: 60px;
-  height: 45px;
-  margin: 20px;
-  padding: 10px;
+  width: 6rem;
+  height: 4.5rem;
+  margin: 2rem;
+  padding: 1rem;
 
   animation-name: moveLogo;
   animation-duration: 2s;
@@ -53,10 +57,10 @@ img {
 }
 
 .title {
-  letter-spacing: 20px;
+  letter-spacing: 2rem;
   color: white;
-  font-size: 40px;
-  padding-top: 150px;
+  font-size: 4rem;
+  padding-top: 15rem;
 
   animation-name: moveTitle;
   animation-duration: 2s;
@@ -64,11 +68,11 @@ img {
 }
 
 .text {
-  top: 200px;
-  left: 500px;
+  top: 20rem;
+  left: 50rem;
   color: white;
-  font-size: 30px;
-  margin: 20px;
+  font-size: 3rem;
+  margin: 2rem;
 
   animation-name: moveText;
   animation-duration: 2s;
@@ -76,9 +80,9 @@ img {
 }
 
 .btn {
-  padding: 15px 20px;
+  padding: 1.5rem 2rem;
   border: none;
-  border-radius: 40px;
+  border-radius: 4rem;
   display: inline-block;
 
   position: relative;
@@ -92,7 +96,7 @@ img {
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 40px;
+  border-radius: 4rem;
   display: inline-block;
   background-color: aqua;
   z-index: -1;
