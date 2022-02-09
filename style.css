@@ -36,7 +36,7 @@ DarkGreen: #28b485
   animation-iteration-count: infinite;
 }
 
-.con {
+.home-info {
   top: 15rem;
   right: 60rem;
   text-align: center;
@@ -56,7 +56,7 @@ img {
   animation-iteration-count: infinite;
 }
 
-.title {
+.home-info-title {
   letter-spacing: 2rem;
   color: white;
   font-size: 4rem;
@@ -67,7 +67,7 @@ img {
   animation-iteration-count: infinite;
 }
 
-.text {
+.home-info-description {
   top: 20rem;
   left: 50rem;
   color: white;
@@ -79,7 +79,7 @@ img {
   animation-iteration-count: infinite;
 }
 
-.btn {
+.home-btn {
   padding: 1.5rem 2rem;
   border: none;
   border-radius: 4rem;
@@ -88,7 +88,7 @@ img {
   position: relative;
 }
 
-.btn::after {
+.home-btn::after {
   content: "";
   position: absolute;
   top: 0;
@@ -116,11 +116,11 @@ img {
 @keyframes btnMem {
   0% {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(0);
   }
 
   100% {
     opacity: 0;
-    transform: scale(2);
+    transform: scale(1.5);
   }
 }
