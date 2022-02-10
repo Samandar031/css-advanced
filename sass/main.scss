@@ -10,8 +10,8 @@ html {
   font-size: 62.5%;
 }
 
-@
-
+@import "abstracts/mixin";
+@import "layout/header";
 .container {
   background-image: linear-gradient(
       to bottom right,
