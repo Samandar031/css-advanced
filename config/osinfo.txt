@@ -1,0 +1,49 @@
+[Architecture/Processor Information]
+
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=8e09
+
+[Operating System Information]
+
+Product Name = Windows 10 Pro
+Version = 6.3
+Build Lab = 19041.1.amd64fre.vb_release.191206-1406
+Type = Multiprocessor Free
+
+This is a clean installed system
+
+[File versions]
+
+onex.dll    10.0.19041.1
+l2nacp.dll    10.0.19041.1
+wlanapi.dll    10.0.19041.630
+wlancfg.dll    10.0.19041.488
+wlanconn.dll    10.0.19041.488
+wlandlg.dll    10.0.19041.1
+wlanext.exe    10.0.19041.1
+wlangpui.dll    10.0.19041.488
+wlanhc.dll    10.0.19041.1
+wlanmm.dll    10.0.19041.329
+wlanmsm.dll    10.0.19041.630
+wlanpref.dll    10.0.19041.1
+wlansec.dll    10.0.19041.630
+wlansvc.dll    10.0.19041.630
+wlanui.dll    10.0.19041.488
+onex.dll    10.0.19041.1
+dot3api.dll    10.0.19041.546
+dot3cfg.dll    10.0.19041.1
+dot3dlg.dll    10.0.19041.1
+dot3gpclnt.dll    10.0.19041.1
+dot3gpui.dll    10.0.19041.1
+dot3msm.dll    10.0.19041.546
+dot3svc.dll    10.0.19041.546
+dot3ui.dll    10.0.19041.1
+
+[Power Information]
+
+Machine is running on Battery
+
+[System Information]
+

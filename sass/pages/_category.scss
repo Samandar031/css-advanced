@@ -1,0 +1,34 @@
+.category-card {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(128, 214, 113, 0.5),
+      rgba(39, 180, 133, 0.5)
+    ),
+    url(/img/nat-4.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  .card {
+    width: 22rem;
+    height: 30rem;
+    border: 2px solid red;
+    padding: 1rem;
+    text-align: center;
+    .card-icon {
+      font-size: 3rem;
+      color: green;
+      margin: 1rem;
+    }
+    .card-title {
+      font-size: 1.5rem;
+      font-weight: 550;
+    }
+
+    .card-text {
+      font-size: 1.2rem;
+    }
+  }
+}
