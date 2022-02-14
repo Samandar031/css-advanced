@@ -30,4 +30,8 @@
   .col-1-of-4 {
     width: calc((100% - 3 * #{$space-horizontal}) / 4);
   }
+
+  .col-1-of-3 {
+    width: calc((100% - 2 * #{$space-horizontal}) / 3);
+  }
 }
