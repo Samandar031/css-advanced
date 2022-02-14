@@ -1,0 +1,103 @@
+-------------------------------------
+-------+ Wireless Display Information +------
+-------------------------------------
+10:08 AM
+
+There is 1 interface on the system: 
+
+    Name                   : Беспроводная сеть
+    Description            : Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+    GUID                   : 23f3c236-6265-4e6d-b63f-86cb95678667
+    Physical address       : 28:39:26:76:9e:8b
+    State                  : connected
+    SSID                   : Redmi
+    BSSID                  : 90:78:b2:0b:22:f6
+    Network type           : Infrastructure
+    Radio type             : 802.11n
+    Authentication         : Open
+    Cipher                 : None
+    Connection mode        : Auto Connect
+    Channel                : 1
+    Receive rate (Mbps)    : 72.2
+    Transmit rate (Mbps)   : 72.2
+    Signal                 : 100% 
+    Profile                : Redmi 
+
+    Hosted network status  : Not available
+
+
+Interface name: Беспроводная сеть
+
+    Driver                    : Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+    Vendor                    : Realtek Semiconductor Corp.
+    Provider                  : Realtek Semiconductor Corp.
+    Date                      : 10/6/2020
+    Version                   : 2024.1.10.217
+    INF file                  : oem22.inf
+    Type                      : Native Wi-Fi Driver
+    Radio types supported     : 802.11n 802.11g 802.11b 802.11ac 802.11n 802.11a
+    FIPS 140-2 mode supported : Yes
+    802.11w Management Frame Protection supported : Yes
+    Hosted network supported  : No
+    Authentication and cipher supported in infrastructure mode:
+                                Open            None
+                                WPA2-Personal   CCMP
+                                Open            WEP-40bit
+                                Open            WEP-104bit
+                                Open            WEP
+                                WPA-Enterprise  TKIP
+                                WPA-Personal    TKIP
+                                WPA2-Enterprise TKIP
+                                WPA2-Personal   TKIP
+                                WPA-Enterprise  CCMP
+                                WPA-Personal    CCMP
+                                WPA2-Enterprise CCMP
+                                WPA3-Personal   CCMP
+                                Vendor defined  TKIP
+                                Vendor defined  CCMP
+                                Vendor defined  Vendor defined
+                                Vendor defined  Vendor defined
+                                WPA2-Enterprise Vendor defined
+                                WPA2-Enterprise Vendor defined
+                                Vendor defined  Vendor defined
+                                Vendor defined  Vendor defined
+    Wireless Display Supported: Yes (Graphics Driver: Yes, Wi-Fi Driver: Yes)
+
+
+There is 1 interface on the system: 
+
+    Name                   : Беспроводная сеть
+    Description            : Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+    GUID                   : 23f3c236-6265-4e6d-b63f-86cb95678667
+    Physical address       : 28:39:26:76:9e:8b
+    State                  : connected
+    SSID                   : Redmi
+    BSSID                  : 90:78:b2:0b:22:f6
+    Network type           : Infrastructure
+    Radio type             : 802.11n
+    Authentication         : Open
+    Cipher                 : None
+    Connection mode        : Auto Connect
+    Channel                : 1
+    Receive rate (Mbps)    : 72.2
+    Transmit rate (Mbps)   : 72.2
+    Signal                 : 100% 
+    Profile                : Redmi 
+
+    Hosted network status  : Not available
+
+ 
+Interface name : Беспроводная сеть 
+There are 1 networks currently visible. 
+
+SSID 1 : Redmi
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 90:78:b2:0b:22:f6
+         Signal             : 100%  
+         Radio type         : 802.11n
+         Channel            : 1 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+

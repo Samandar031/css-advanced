@@ -1,0 +1,91 @@
+.main-card {
+  position: relative;
+  width: 25rem;
+  height: 50rem;
+
+  .the-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 1rem 2rem 1rem grey;
+    transform-style: preserve-3d;
+    transition: all 1.5s ease;
+    text-align: center;
+
+    &:hover {
+      transform: rotateY(180deg);
+    }
+  }
+  .the-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+    .img_color,
+    .img_color-2,
+    .img_color-3 {
+      width: 100%;
+      height: 45%;
+      background-size: cover;
+      background-position: center;
+      background-image: linear-gradient(to right, black, green),
+        url(../img/nat-5.jpg);
+      background-repeat: no-repeat;
+      background-blend-mode: screen;
+      -webkit-background-blend-mode: screen;
+      clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    }
+
+    .img_color-2 {
+      background-image: linear-gradient(to right, black, green),
+        url(../img/nat-7.jpg);
+    }
+
+    .img_color-3 {
+      background-image: linear-gradient(to right, black, green),
+        url(../img/nat-7.jpg);
+    }
+
+    p {
+      font-size: 2rem;
+      margin: 2rem;
+    }
+  }
+
+  .back-one {
+    background-color: rgba(255, 69, 0, 0.8);
+  }
+
+  .back-two {
+    background-color: rgba(51, 255, 0, 0.8);
+  }
+
+  .back-three {
+    background-color: rgba(0, 119, 255, 0.8);
+  }
+
+  .the-back {
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+
+    transform: rotateY(180deg);
+    p:nth-child(1) {
+      font-size: 3rem;
+      margin: 7rem 3rem;
+    }
+    p:nth-child(2) {
+      font-size: 7rem;
+      margin: 3rem;
+    }
+    .card-btn {
+      padding: 1.5rem 2.5rem;
+      border-radius: 2rem;
+      border: none;
+      margin-top: 7rem;
+    }
+  }
+}

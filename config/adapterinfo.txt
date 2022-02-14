@@ -1,0 +1,84 @@
+Driver Description = Microsoft Wi-Fi Direct Virtual Adapter
+Adapter Guid = {278BBA70-837A-4262-873B-6A6B00F3C118}
+Hardware ID = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = Microsoft Wi-Fi Direct Virtual Adapter
+Adapter Guid = {C6A5340C-92EC-46AE-9EF7-810EDA4AABDB}
+Hardware ID = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+Adapter Guid = {23F3C236-6265-4E6D-B63F-86CB95678667}
+Hardware ID = PCI\VEN_10EC&DEV_C821&SUBSYS_C02417AA
+Driver Date = 10-6-2020
+Driver Version = 2024.1.10.217
+Driver Provider = Realtek Semiconductor Corp.
+
+Driver Description = Microsoft Wi-Fi Direct Virtual Adapter
+Adapter Guid = {0F139B23-8AA6-41AF-ADF1-90232CAA6FB5}
+Hardware ID = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = Microsoft Wi-Fi Direct Virtual Adapter
+Adapter Guid = {A0259D57-3CF8-4DD5-8F1A-30A5CF2718B5}
+Hardware ID = {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = Microsoft Kernel Debug Network Adapter
+Adapter Guid = {FECFCE43-A15A-432A-B3C2-A24C8BEC7A63}
+Hardware ID = root\kdnic
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = WAN Miniport (IP)
+Adapter Guid = {EA0443D4-97B0-425F-982C-A1E9FE6B731D}
+Hardware ID = ms_ndiswanip
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = WAN Miniport (IPv6)
+Adapter Guid = {FCCD78CD-405C-4D08-9533-5A280F2DC05D}
+Hardware ID = ms_ndiswanipv6
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = WAN Miniport (Network Monitor)
+Adapter Guid = {2D0F7557-E886-4950-A75F-D67175D00960}
+Hardware ID = ms_ndiswanbh
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = Bluetooth Device (Personal Area Network)
+Adapter Guid = {BA306563-5FB4-4B3A-AEEA-5411F9DBA5FB}
+Hardware ID = BTH\MS_BTHPAN
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+
+Driver Description = Realtek PCIe FE Family Controller
+Adapter Guid = {6E39271E-2B88-4365-96F0-93D0C08DD455}
+Hardware ID = PCI\VEN_10EC&DEV_8136&SUBSYS_386017AA&REV_07
+Driver Date = 9-28-2020
+Driver Version = 10.45.928.2020
+Driver Provider = Realtek
+
+Driver Description = Remote NDIS based Internet Sharing Device
+Adapter Guid = {0148FF50-4F98-4E17-A3EC-A0EF1CE9AB2E}
+Hardware ID = USB\Class_e0&SubClass_01&Prot_03
+Driver Date = 6-21-2006
+Driver Version = 10.0.19041.1
+Driver Provider = Microsoft
+

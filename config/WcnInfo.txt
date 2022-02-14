@@ -1,0 +1,992 @@
+-------------------------------------
+---------+ WCN Information +---------
+-------------------------------------
+
+
+-----------------
++ Services Status
+-----------------
+
+
+SERVICE_NAME: wcncsvc 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wlansvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: eaphost 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: fdrespub 
+        TYPE               : 30  WIN32  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: upnphost 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: eaphost 
+        TYPE               : 20  WIN32_SHARE_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 1077  (0x435)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+
+-----------------------
++ WCN Files Information 
+-----------------------
+
+
+---------------------
+wcncsvc.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.534002+300
+	- Description		: 	C:\Windows\system32\wcncsvc.dll
+	- Installation Date	: 	20191207140813.534002+300
+	- Last Accessed		: 	20220211084842.758391+300
+	- Last Modified 	: 	20191207140813.534002+300
+	- Status		: 	OK
+
+---------------------
+wcnapi.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.534002+300
+	- Description		: 	C:\Windows\system32\wcnapi.dll
+	- Installation Date	: 	20191207140813.534002+300
+	- Last Accessed		: 	20220131184244.406055+300
+	- Last Modified 	: 	20191207140813.550352+300
+	- Status		: 	OK
+
+---------------------
+fdwcn.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.534002+300
+	- Description		: 	C:\Windows\system32\fdwcn.dll
+	- Installation Date	: 	20191207140813.534002+300
+	- Last Accessed		: 	20220131184244.360855+300
+	- Last Modified 	: 	20191207140813.534002+300
+	- Status		: 	OK
+
+---------------------
+wcneapauthproxy.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.550352+300
+	- Description		: 	C:\Windows\system32\wcneapauthproxy.dll
+	- Installation Date	: 	20191207140813.550352+300
+	- Last Accessed		: 	20220127110215.403828+300
+	- Last Modified 	: 	20191207140813.550352+300
+	- Status		: 	OK
+
+---------------------
+wcneappeerproxy.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.550352+300
+	- Description		: 	C:\Windows\system32\wcneappeerproxy.dll
+	- Installation Date	: 	20191207140813.550352+300
+	- Last Accessed		: 	20220127110215.406002+300
+	- Last Modified 	: 	20191207140813.550352+300
+	- Status		: 	OK
+
+---------------------
+wcnwiz.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.534002+300
+	- Description		: 	C:\Windows\system32\wcnwiz.dll
+	- Installation Date	: 	20191207140813.534002+300
+	- Last Accessed		: 	20220127110215.427897+300
+	- Last Modified 	: 	20191207140813.534002+300
+	- Status		: 	OK
+
+---------------------
+wcnnetsh.dll
+---------------------
+	- Version 		:  	10.0.19041.1
+	- Creation Date		: 	20191207140813.534002+300
+	- Description		: 	C:\Windows\system32\wcnnetsh.dll
+	- Installation Date	: 	20191207140813.534002+300
+	- Last Accessed		: 	20220212100714.753482+300
+	- Last Modified 	: 	20191207140813.534002+300
+	- Status		: 	OK
+
+
+-------------------------------
++ Network Adapters Information 
+-------------------------------
+
+
+---------------------
+DeviceID  :  0
+---------------------
+	- Description 		: 	Microsoft Kernel Debug Network Adapter
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	Microsoft Kernel Debug Network Adapter
+	- NetConnectionStatus	: 	
+	- PNPDeviceID     	: 	ROOT\KDNIC\0000
+	- ProductName      	: 	Microsoft Kernel Debug Network Adapter
+	- ServiceName       	: 	kdnic
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000000] Microsoft Kernel Debug Network Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  1
+---------------------
+	- Description 		: 	WAN Miniport (IKEv2)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (IKEv2)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_AGILEVPNMINIPORT
+	- ProductName      	: 	WAN Miniport (IKEv2)
+	- ServiceName       	: 	RasAgileVpn
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000001] WAN Miniport (IKEv2)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  2
+---------------------
+	- Description 		: 	WAN Miniport (L2TP)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (L2TP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_L2TPMINIPORT
+	- ProductName      	: 	WAN Miniport (L2TP)
+	- ServiceName       	: 	Rasl2tp
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000002] WAN Miniport (L2TP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  3
+---------------------
+	- Description 		: 	WAN Miniport (PPTP)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (PPTP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_PPTPMINIPORT
+	- ProductName      	: 	WAN Miniport (PPTP)
+	- ServiceName       	: 	PptpMiniport
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000003] WAN Miniport (PPTP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  4
+---------------------
+	- Description 		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- Name     		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- NetConnectionStatus	: 	Device is working properly
+	- ProductName      	: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000004] Microsoft Wi-Fi Direct Virtual Adapter
+	- ConfigManagerErrorCode:	Running or Full Power
+
+---------------------
+DeviceID  :  5
+---------------------
+	- Description 		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- Name     		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- NetConnectionStatus	: 	Running or Full Power
+	- ProductName      	: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Running or Full Power
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000005] Microsoft Wi-Fi Direct Virtual Adapter
+	- ConfigManagerErrorCode:	Running or Full Power
+
+---------------------
+DeviceID  :  6
+---------------------
+	- Description 		: 	WAN Miniport (PPPOE)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (PPPOE)
+	- NetConnectionStatus	: 	Running or Full Power
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_PPPOEMINIPORT
+	- ProductName      	: 	WAN Miniport (PPPOE)
+	- ServiceName       	: 	RasPppoe
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Running or Full Power
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000006] WAN Miniport (PPPOE)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  7
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	WAN Miniport (IP)
+	- MACAddress  		: 	00:90:20:52:41:53
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (IP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_NDISWANIP
+	- ProductName      	: 	WAN Miniport (IP)
+	- ServiceName       	: 	NdisWan
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000007] WAN Miniport (IP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  8
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	WAN Miniport (IPv6)
+	- MACAddress  		: 	00:8A:20:52:41:53
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (IPv6)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_NDISWANIPV6
+	- ProductName      	: 	WAN Miniport (IPv6)
+	- ServiceName       	: 	NdisWan
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000008] WAN Miniport (IPv6)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  9
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	WAN Miniport (Network Monitor)
+	- MACAddress  		: 	02:85:20:52:41:53
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (Network Monitor)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_NDISWANBH
+	- ProductName      	: 	WAN Miniport (Network Monitor)
+	- ServiceName       	: 	NdisWan
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000009] WAN Miniport (Network Monitor)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  10
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Bluetooth Device (Personal Area Network)
+	- NetConnectionID  	: 	Сетевое подключение Bluetooth
+	- GUID 			: 	{BA306563-5FB4-4B3A-AEEA-5411F9DBA5FB}
+	- MACAddress  		: 	28:39:26:76:9E:8C
+	- Manufacturer   	: 	Microsoft
+	- Speed        		: 	3000000
+	- Name     		: 	Bluetooth Device (Personal Area Network)
+	- NetConnectionStatus	: 	Media disconnected
+	- PNPDeviceID     	: 	BTH\MS_BTHPAN\6&8660B71&0&2
+	- ProductName      	: 	Bluetooth Device (Personal Area Network)
+	- ServiceName       	: 	BthPan
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Media disconnected
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000010] Bluetooth Device (Personal Area Network)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  11
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Realtek PCIe FE Family Controller
+	- NetConnectionID  	: 	Ethernet
+	- GUID 			: 	{6E39271E-2B88-4365-96F0-93D0C08DD455}
+	- MACAddress  		: 	9C:5A:44:71:FE:8D
+	- Manufacturer   	: 	Realtek
+	- Speed        		: 	9223372036854775807
+	- Name     		: 	Realtek PCIe FE Family Controller
+	- NetConnectionStatus	: 	Media disconnected
+	- PNPDeviceID     	: 	PCI\VEN_10EC&DEV_8136&SUBSYS_386017AA&REV_07\4&F874A91&0&00E0
+	- ProductName      	: 	Realtek PCIe FE Family Controller
+	- ServiceName       	: 	rt640x64
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Media disconnected
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000011] Realtek PCIe FE Family Controller
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  12
+---------------------
+	- Description 		: 	WAN Miniport (SSTP)
+	- Manufacturer   	: 	Microsoft
+	- Name     		: 	WAN Miniport (SSTP)
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	SWD\MSRRAS\MS_SSTPMINIPORT
+	- ProductName      	: 	WAN Miniport (SSTP)
+	- ServiceName       	: 	RasSstp
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000012] WAN Miniport (SSTP)
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  13
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+	- NetConnectionID  	: 	Беспроводная сеть
+	- GUID 			: 	{23F3C236-6265-4E6D-B63F-86CB95678667}
+	- MACAddress  		: 	28:39:26:76:9E:8B
+	- Manufacturer   	: 	Realtek Semiconductor Corp.
+	- Speed        		: 	72200000
+	- Name     		: 	Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+	- NetConnectionStatus	: 	Connected
+	- PNPDeviceID     	: 	PCI\VEN_10EC&DEV_C821&SUBSYS_C02417AA&REV_00\4&2631C79&0&00E5
+	- ProductName      	: 	Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+	- ServiceName       	: 	RTWlanE
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Connected
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000013] Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  14
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- MACAddress  		: 	2A:39:26:76:9E:8B
+	- Manufacturer   	: 	Microsoft
+	- Speed        		: 	9223372036854775807
+	- Name     		: 	Microsoft Wi-Fi Direct Virtual Adapter #3
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&256B3DEF&1&13
+	- ProductName      	: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- ServiceName       	: 	vwifimp
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000014] Microsoft Wi-Fi Direct Virtual Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  15
+---------------------
+	- Adapter Type		:  	Ethernet 802.3
+	- Description 		: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- MACAddress  		: 	AA:39:26:76:9E:8B
+	- Manufacturer   	: 	Microsoft
+	- Speed        		: 	9223372036854775807
+	- Name     		: 	Microsoft Wi-Fi Direct Virtual Adapter #4
+	- NetConnectionStatus	: 	Device is working properly
+	- PNPDeviceID     	: 	{5D624F94-8850-40C3-A3FA-A4FD2080BAF3}\VWIFIMP_WFD\5&256B3DEF&1&14
+	- ProductName      	: 	Microsoft Wi-Fi Direct Virtual Adapter
+	- ServiceName       	: 	vwifimp
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000015] Microsoft Wi-Fi Direct Virtual Adapter
+	- ConfigManagerErrorCode:	Device is working properly
+
+---------------------
+DeviceID  :  16
+---------------------
+	- Description 		: 	Remote NDIS based Internet Sharing Device
+	- Name     		: 	Remote NDIS based Internet Sharing Device
+	- NetConnectionStatus	: 	Device is working properly
+	- ProductName      	: 	Remote NDIS based Internet Sharing Device
+	- SystemName       	: 	WIN-07DE06LH1DV
+	- TimeOfLastReset	: 	20220212073254.500000+300
+	- StatusInfo		: 	Device is working properly
+	- Availability		: 	Running or Full Power
+	- Caption 		: 	[00000016] Remote NDIS based Internet Sharing Device
+	- ConfigManagerErrorCode:	Running or Full Power
+
+-----------------------
++ ipconfig information
+-----------------------
+
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : WIN-07DE06LH1DV
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Physical Address. . . . . . . . . : 9C-5A-44-71-FE-8D
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Џ®¤Є«озҐ­ЁҐ Ї® «®Є «м­®© бҐвЁ* 11:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #3
+   Physical Address. . . . . . . . . : 2A-39-26-76-9E-8B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Џ®¤Є«озҐ­ЁҐ Ї® «®Є «м­®© бҐвЁ* 12:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #4
+   Physical Address. . . . . . . . . : AA-39-26-76-9E-8B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter ЃҐбЇа®ў®¤­ п бҐвм:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek 8821CE Wireless LAN 802.11ac PCI-E NIC
+   Physical Address. . . . . . . . . : 28-39-26-76-9E-8B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::350e:df59:5a64:eeab%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.43.68(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, February 12, 2022 7:34:53 AM
+   Lease Expires . . . . . . . . . . : Saturday, February 12, 2022 10:54:40 AM
+   Default Gateway . . . . . . . . . : 192.168.43.1
+   DHCP Server . . . . . . . . . . . : 192.168.43.1
+   DHCPv6 IAID . . . . . . . . . . . : 354957606
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-28-00-75-79-9C-5A-44-71-FE-8D
+   DNS Servers . . . . . . . . . . . : 192.168.43.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter ‘ҐвҐў®Ґ Ї®¤Є«озҐ­ЁҐ Bluetooth:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : 28-39-26-76-9E-8C
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+----------------------
++ Softap Capabilities 
+----------------------
+
+The following command was not found: wlan show device.
+
+----------------------
++ Dump wcncsvc RegKey 
+----------------------
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\wcncsvc\Parameters
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\System32\wcncsvc.dll
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+    ServiceMain    REG_SZ    WcnServiceMain
+
+
+--------------------------------
++ Network Discovery Information.
+--------------------------------
+
+
+------------------------------
+- Current Profile information
+------------------------------
+
+Current firewall profile is: 
+Private
+
+Private Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+Firewall Policy                       BlockInbound,AllowOutbound
+LocalFirewallRules                    N/A (GPO-store only)
+LocalConSecRules                      N/A (GPO-store only)
+InboundUserNotification               Disable
+RemoteManagement                      Disable
+UnicastResponseToMulticast            Enable
+
+Logging:
+LogAllowedConnections                 Disable
+LogDroppedConnections                 Disable
+FileName                              %systemroot%\system32\LogFiles\Firewall\pfirewall.log
+MaxFileSize                           4096
+
+Ok.
+
+
+----------------------------------------------
+- Network discovery status for current profile
+----------------------------------------------
+
+
+  Rule Name:          Обнаружение сети (события WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее события WSDAPI с обнаружением функций. [TCP 5357]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (события WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее события WSDAPI с обнаружением функций. [TCP 5357]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (безопасные события WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее безопасные события WSDAPI с обнаружением функций. [TCP 5358]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (безопасные события WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее безопасные события WSDAPI с обнаружением функций. [TCP 5358]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (общий - WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, позволяющее находить устройства с помощью обнаружения функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (общий - WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, позволяющее находить устройства с помощью обнаружения функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (LLMNR UDP - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее разрешение имен по протоколу LLMNR (Link Local Multicast Name Resolution). [UDP 5355]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (LLMNR UDP - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее разрешение имен по протоколу LLMNR (Link Local Multicast Name Resolution). [UDP 5355]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (WSD - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети для распознавания устройств через обнаружение функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (WSD — входящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сетевых ресурсов, позволяющее находить устройства с помощью платформы сопоставления устройств. [UDP 3702]
+  Application Name:   C:\Windows\system32\dashost.exe
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (WSD - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, позволяющее находить устройства с помощью обнаружения функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (датаграммы NetBios - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее передачу и прием датаграмм NetBIOS. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (датаграммы NetBios - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее передачу и прием датаграмм NetBIOS. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (имена NetBios - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее разрешение имен NetBIOS. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (имена NetBios - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее разрешение имен NetBIOS. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (UPnP - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети для Teredo (входящий трафик UPnP)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (UPnP - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (UPnPHost - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       upnphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (SSDP - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать протокол SSDP (Simple Service Discovery Protocol). [UDP 1900]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети для Teredo (входящий трафик SSDP)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать протокол SSDP (Simple Service Discovery Protocol). [UDP 1900]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (SSDP - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать протокол SSDP (Simple Service Discovery Protocol). [UDP 1900]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (события WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее события WSDAPI с обнаружением функций. [TCP 5357]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (события WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее события WSDAPI с обнаружением функций. [TCP 5357]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (безопасные события WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее безопасные события WSDAPI с обнаружением функций. [TCP 5358]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (безопасные события WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее безопасные события WSDAPI с обнаружением функций. [TCP 5358]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (общий - WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, позволяющее находить устройства с помощью обнаружения функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (общий - WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, позволяющее находить устройства с помощью обнаружения функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdrespub
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (LLMNR UDP - исходящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее разрешение имен по протоколу LLMNR (Link Local Multicast Name Resolution). [UDP 5355]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (LLMNR UDP - входящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее разрешение имен по протоколу LLMNR (Link Local Multicast Name Resolution). [UDP 5355]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       dnscache
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (WSD - исходящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети для распознавания устройств через обнаружение функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (WSD — входящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сетевых ресурсов, позволяющее находить устройства с помощью платформы сопоставления устройств. [UDP 3702]
+  Application Name:   C:\Windows\system32\dashost.exe
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (WSD - входящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, позволяющее находить устройства с помощью обнаружения функций. [UDP 3702]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (датаграммы NetBios - исходящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее передачу и прием датаграмм NetBIOS. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (датаграммы NetBios - входящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее передачу и прием датаграмм NetBIOS. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (имена NetBios - исходящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее разрешение имен NetBIOS. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (имена NetBios - входящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее разрешение имен NetBIOS. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (UPnPHost - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       upnphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (UPnP - исходящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (UPnP - входящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (SSDP - исходящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать протокол SSDP (Simple Service Discovery Protocol). [UDP 1900]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (SSDP - входящий)
+   ----------------------------------------------
+  Enabled:            True
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать протокол SSDP (Simple Service Discovery Protocol). [UDP 1900]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       Ssdpsrv
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (события WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее события WSDAPI с обнаружением функций. [TCP 5357]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (события WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее события WSDAPI с обнаружением функций. [TCP 5357]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (безопасные события WSD - исходящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее безопасные события WSDAPI с обнаружением функций. [TCP 5358]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (безопасные события WSD - входящий трафик)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее безопасные события WSDAPI с обнаружением функций. [TCP 5358]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (датаграммы NetBios - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее передачу и прием датаграмм NetBIOS. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (датаграммы NetBios - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее передачу и прием датаграмм NetBIOS. [UDP 138]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (имена NetBios - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее разрешение имен NetBIOS. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (имена NetBios - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее разрешение имен NetBIOS. [UDP 137]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
+
+  Rule Name:          Обнаружение сети (UPnP - исходящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило исходящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   C:\Windows\system32\svchost.exe
+  Service Name:       fdphost
+  Direction:          Out
+
+  Rule Name:          Обнаружение сети (UPnP - входящий)
+   ----------------------------------------------
+  Enabled:            False
+  Description:        Правило входящего трафика для обнаружения сети, разрешающее использовать стандарт "Universal Plug and Play". [TCP]
+  Application Name:   System
+  Service Name:       
+  Direction:          In
