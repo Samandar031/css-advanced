@@ -15,31 +15,37 @@
 </head>
 <body>
 
-  <nav>
-    <ul class="navigation">
-      <li><a href="#">Price</a></li>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="nav_check">
+    <label for="nav_check" class="navigation__button">
+      <span class="navigation__icon"></span>
+    </label>
 
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">About us</a></li>
-    </ul>
-    <div class="main">
-      <a href="#" class="main__sign-in">Sign in</a>
-      <a href="#" class="main__sign-up">Registration</a>
+    <div class="navigation__background"></div>
+
+    <div class="navigation__menu">
+      <ul class="navigation__list">
+        <li class="navigation_item"><a href="#" class="navigation_link">01 ABOUT MAGICLIFE</a></li>
+        <li class="navigation_item"><a href="#" class="navigation_link">02 YOUR BENIFITS</a></li>
+        <li class="navigation_item"><a href="#" class="navigation_link">03 POPULAR TOURS</a></li>
+        <li class="navigation_item"><a href="#" class="navigation_link">04 ABOUT MAGICLIFE</a></li>
+        <li class="navigation_item"><a href="#" class="navigation_link">05 ABOUT MAGICLIFE</a></li>
+      </ul>
     </div>
-  </nav>
-
-
-  <div class="container">
-    <div class="home-logo">
-      <img src="./img/logo-white.png" alt="">
-    </div>
-
-    <duv class="home-info">
-      <h1 class="home-info-title">OUTDOORS</h1>
-      <p class="home-info-description">IS WHERE LIFE HAPPENS</p>
-      <button class="home-btn">DISCOVER OUR TOURS</button>
-    </duv>
   </div>
+
+
+    <div class="container">
+      <div class="home-logo">
+        <img src="./img/logo-white.png" alt="">
+      </div>
+
+      <duv class="home-info">
+        <h1 class="home-info-title">OUTDOORS</h1>
+        <p class="home-info-description">IS WHERE LIFE HAPPENS</p>
+        <button class="home-btn">DISCOVER OUR TOURS</button>
+      </duv>
+    </div>
 
 
     <!-- <section class="grid-test">
@@ -137,9 +143,11 @@
       <div class="u-text-center">
         <h2 class="heading-secondary">Exsitiong tour for advanture people </h2>
       </div>
+
       <div class="row">
         <div class="col-1-of-3 main-card">
           <div class="the-card">
+            
             <div class="the-front">
               <div class="img_color">
                 
@@ -150,15 +158,18 @@
               <p class="card-text">Sleep in cozy hotels</p>
               <p class="card-text">Difficult easy</p>
             </div>
+
             <div class="the-back back-one">
               <p class="back-text">
                 only
               </p>
               <p class="back-text">$ 249</p>
-              <button class="card-btn">Book Now !</button>
+              
+              <a href="#popup" class="card-btn">Book Now!</a>
             </div>
           </div>
         </div>
+
         <div class="col-1-of-3 main-card">
           <div class="the-card">
             <div class="the-front">
@@ -176,7 +187,7 @@
                 only
               </p>
               <p class="back-text">$ 249</p>
-              <button class="card-btn">Book Now !</button>
+              <a href="#popup" class="card-btn">Book Now!</a>
             </div>
           </div>
         </div>
@@ -197,17 +208,65 @@
                 only
               </p>
               <p class="back-text">$ 249</p>
-              <button class="card-btn">Book Now !</button>
+              <a href="#popup" class="card-btn">Book Now!</a>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- /most popular tour -->
+    
+    <!-- we make people genuinely happy -->
+    <section class="happy">
+      <div class="u-text-center">
+        <h2 class="heading-secondary">Exsitiong tour for advanture people </h2>
+      </div>
+      <div class="happy-card">
+        <div class="happy-img">
+          <img src="img/nat-8.jpg" alt="">
+        </div>
+        <div class="happy-content">
+          <p class="happy-card-title">
+            I HAD THE BEST WEEK EVER WITH MY FAMILY
+          </p>
+          <div class="happy-card-description">
+            Lorem ipsum dolor sit amet consecteturlorem20 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique alias ab a accusamus nisi quam reiciendis eaque molestias ratione veniam.
+             adipisicing elit. Aliquid dolorum mollitia hic nostrum molestias odit laborum. Asperiores, enim facilis itaque ab repellat illum eos odit error cum cumque fugiat. Recusandae, sint! Doloremque explicabo similique molestiae modi rem dolores officiis. Nisi commodi corporis possimus vitae beatae debitis, porro voluptatum inventore mollitia.
+          </div>
+        </div>
+      </div>
+      <div class="happy-card">
+        <div class="happy-img">
+          <img src="img/nat-8.jpg" alt="">
+        </div>
+        <div class="happy-content">
+          <p class="happy-card-title">
+            I HAD THE BEST WEEK EVER WITH MY FAMILY
+          </p>
+          <div class="happy-card-description">
+            Lorem ipsum dolor sit amet consecteturlorem20 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique alias ab a accusamus nisi quam reiciendis eaque molestias ratione veniam.
+             adipisicing elit. Aliquid dolorum mollitia hic nostrum molestias odit laborum. Asperiores, enim facilis itaque ab repellat illum eos odit error cum cumque fugiat. Recusandae, sint! Doloremque explicabo similique molestiae modi rem dolores officiis. Nisi commodi corporis possimus vitae beatae debitis, porro voluptatum inventore mollitia.
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /we make people genuinely happy -->
 
     <!-- contact -->
-
+    <section class="contact">
+      <div class="contact-info">
+        <div class="contact-title">START BOOKINT</div>
+        <input type="text" id="name" required placeholder="Full name"><br>
+        <label for="name">Full name</label><br>
+        <input type="email" id="email" required placeholder="Full name"><br>
+        <label for="email">Email</label><br>
+        <button class="contact-btn">
+          NEXT STEP 
+        </button>
+      </div>
+    </section>
     <!-- /contact -->
+
     <!-- footer -->
     <section class="footer">
       <div class="row">
@@ -229,5 +288,29 @@
     </div>
     </section>
     <!-- /footer -->
+
+    <!-- popup -->
+    <section class="popup-con" id="popup">
+      <section class="popup" >
+        <div class="popup-img">
+          <img src="img/nat-8.jpg" alt="">
+          <img src="img/nat-9.jpg" alt="">
+        </div>
+        <div class="popup-content">
+          <p class="popup-title">START BOOKING NOW</p>
+          <p class="popup-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="popup-description">
+            <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo cumque soluta velit harum omnis voluptatibus quo dolorem et corrupti nesciunt. adipisicing elit. Tempore quidem provident, illum nisi aperiam quae est sequi officiis sed placeat eius officia, quos recusandae nemo temporibus voluptatum earum odit sit. Ipsam sapiente odit id nulla sit omnis illo, expedita ex fugiat animi repudiandae eum beatae quod perferendis, deserunt sunt amet?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo assumenda sint non minima modi nemo. Ipsum animi et dolores, dolorum omnis deserunt aliquam tempore laudantium vero iure, deleniti corrupti nemo assumenda! Mollitia debitis cumque assumenda nihil excepturi, temporibus veritatis quos magnam quasi nemo voluptatibus tempora consectetur, iste corporis. Animi, esse?</p>
+          </div>
+          <button class="popup-btn">BOOK NOW</button>
+          <div class="close">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- /popup -->
 </body>
 </html>
